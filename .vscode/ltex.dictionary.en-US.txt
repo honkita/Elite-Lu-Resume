@@ -1,2 +1,17 @@
 COMPSCI
 Earley
+xcolor
+elitelu
+OLG
+honkita
+playbreaks
+PageSpeed
+colour
+colours
+JSONs
+PageInsights
+DBeaver
+JupyterHub
+Netbeans
+OverLeaf
+LinkHub

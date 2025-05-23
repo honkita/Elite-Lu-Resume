@@ -6,13 +6,13 @@
 % Light Theme
 % \documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 
+\usepackage{paracol}
+
+
 \newenvironment{sloppypar*}{\sloppy\ignorespaces}{\par}
 
-% Change the page layout if you need to
 \geometry{left=0.5cm,right=0.5cm,top=0.5cm,bottom=0.5cm,columnsep=0.5cm}
 
-% The paracol package lets you typeset columns of text in parallel
-\usepackage{paracol}
 
 \ifxetexorluatex
 % If using xelatex or lualatex:
@@ -77,22 +77,34 @@
 
 \makecvheader
 \begin{paracol}{1}
-  % ----- SUMMARY OF QUALIFICATIONS -----
+
   \cvsection{Summary of Qualifications}
+
   \begin{itemize}
     \item {McMaster fourth year student in Computer Science with a minor in Mathematics}
     \item {Completed three different software developer co-op positions and developed applications using various IDES and industry used languages such as Java, C++, and JavaScript}
   \end{itemize}
+
   \cvsection{Education}
+
   \cvevent{Bachelors of Computer Science with a Minor in Mathematics}{McMaster University}{09 2021 -- 04 2026}{Hamilton, Ontario, Canada}
-  % ----- EXPERIENCE -----
+
   \cvsection{Job Experience}
+
+  \cvevent{Network Design Intern}{Hitachi Rail}{05 2025 -- PRESENT}{North York, Ontario, Canada}
+  \begin{itemize}
+    \item{Responsible for designing different CBTC network solutions for various projects such as Hyderabad}
+    \item{Drawing different TCP/IP layer diagrams (Layer 1, 2 and 3)}
+    \item{Working alongside different designers to set up and test different networks}
+  \end{itemize}
+
   \cvevent{Frontend Developer Intern}{OLG}{09 2024 -- 12 2024}{North York, Ontario, Canada}
   \begin{itemize}
     \item{Focused on refactoring site from Vue 2 to Vue 3's Composable API}
     \item{Developing the OLG.ca website with A11y, increasing site accessibility by 70\%}
     \item{Working alongside different labs (teams) such as payment and accounts lab on different parts of the site (health, playbreaks, etc.)}
   \end{itemize}
+
   \cvevent{Software Developer Intern}{CIBC}{01 2024 -- 04 2024}{Toronto, Ontario, Canada}
   \begin{itemize}
     \item{Part of the RMVV (Risk Management Vetting and Validation), DA (Deal Analyzer), and CDD (Climate Data Dashboard) teams}
@@ -102,7 +114,7 @@
   \end{itemize}
   \cvevent{Software Developer Intern}{Practice Perfect EMR}{05 2022 -- 09 2022}{Concord, Ontario, Canada}
   \begin{itemize}
-    \item Designed an API tester that checks server health along with producing PDFs from APIS
+    \item Designed an API tester that checks server health along with producing PDFs from APIs
     \item Generated JSON files from server calls
     \item Created a GUI for the application in Java for a better user experience
     \item Decreased overall test duration and bug fix times by 50\%
