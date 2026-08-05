@@ -17,3 +17,6 @@ OverLeaf
 LinkHub
 TCUP
 Muni
+Prolog
+Vite
+Supabase

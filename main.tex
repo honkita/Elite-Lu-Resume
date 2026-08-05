@@ -1,10 +1,10 @@
 \PassOptionsToPackage{dvipsnames}{xcolor}
 
 % Dark Theme
-\documentclass[10pt,a4paper,ragged2e,withhyper,darkmode]{altacv}
+% \documentclass[10pt,a4paper,ragged2e,withhyper,darkmode]{altacv}
 
 % Light Theme
-% \documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 
 \usepackage{paracol}
 
@@ -67,7 +67,7 @@
 \begin{document}
 \name{Elite Lu}
 \personalinfo{
-  \email{lue13@mcmaster.ca}\smallskip
+  \email{elitelulww@gmail.com}\smallskip
   \phone{(647) 656-5359}
   \location{Ontario, Canada}\\
   \linkedin{elitelu}
@@ -81,9 +81,10 @@
   \cvsection{Summary of Qualifications}
 
   \begin{itemize}
-    \item {McMaster student graduating with a degree in Computer Science with a minor in Mathematics.}
-    \item {Completed various different software developer and networks co-op positions and developed applications using various IDES and industry used languages such as Java, C++, and JavaScript along with network design.}
-    \item {Looking for full-time opportunities in software development and network design starting in May 2026.}
+    \item{Working at Hitachi Rail GTS as a Network Design Specialist, focusing on designing train network systems and automation.}
+    \item {Graduated from McMaster student with a degree in Computer Science with a minor in Mathematics with summa cum laude.}
+    \item {Completed various different software developer and networks positions and developed applications using various IDES and industry used languages such as Java, C++, and JavaScript along with network design.}
+    \item {Worked with various LLMs and models.}
   \end{itemize}
 
   \cvsection{Education}
@@ -123,12 +124,6 @@
     \item Decreased overall test duration and bug fix times by 50\%.
   \end{itemize}
 
-  % \cvsection{Extracurriculars}
-  % \cvevent{Game Development Club}{McMaster University}{09 2023 -- ONGOING}{Hamilton, Ontario, Canada}
-  % \begin{itemize}
-  %   \item{Currently learning and using Godot as a game engine to gain expertise in creating diverse game genres, including platformers, visual novels, and fighting games.}
-  %   \item{Focusing on the development of different games along with the design of various amounts of assets (art, music and animation).}
-  % \end{itemize}
   % ----- PROJECTS -----
   \cvsection{Projects}
   \cvevent{Elite Lu Website}{\cvreference{\faGithub}{https://github.com/honkita/WebsitePortfolio}\cvreference{| \faGlobe}{https://elitelu.com/}}{09 2023 -- ONGOING}{}
@@ -139,21 +134,24 @@
     \item{Scores around 90\%-95\% in terms of efficiency based on PageSpeed Insights.}
   \end{itemize}
   \divider
+
+  \cvevent{Last.fm Stats Organizer}{\cvreference{\faGithub}{https://github.com/honkita/Last.fm-Stats-Organizer}\cvreference{| \faGlobe}{https://last-fm-stats-organizer.vercel.app/}}{10 2025 -- ONGOING}{}
+  \begin{itemize}
+    \item{A wrapper for Last.fm data which organizes data by grouping and ungrouping artist data and album data.}
+    \item {Solves two main issues with Last.fm, which includes artists with the same name and artists with various names (e.g. i-dle is also known as (G)I-DLE formerly, but they are not grouped together or LiSA (Japanese singer) and Lisa (Blackpink member).).}
+    \item {Displays the user data in a simple, clear way that shows their information.}
+  \end{itemize}
+  \divider
+
   \cvevent{GitHub Stats}{\cvreference{\faGithub}{https://github.com/honkita/GitHub-Stats-Backend}}
   {05 2024 -- ONGOING}{}
   \begin{itemize}
-    \item{Developed a backend application that tracks the user's most commonly used languages in their repos by utilizing Express.js.}
+    \item{A backend application that tracks the user's most commonly used languages in their repos by utilizing Express.js.}
     \item{Displays graphically the user's most used languages with an SVG image that can be added onto their README.md files on GitHub.}
     \item{Focusing on adding a weighted graph for projects and colour themes.}
   \end{itemize}
   \divider
-  \cvevent{API and Server Stability Tester}{}{05 2022 -- 09 2022}{}
-  \begin{itemize}
-    \item{Developed two distinct GUIs that facilitated the generation of JSON and the creation of PDFs from APIs.}
-    \item{Maintained server health and stability by executing simultaneous server calls in sets of five, ten, or twenty.}
-    \item{Produced JSONs of server information of users and decreased test durations by a factor of 50\%.}
-  \end{itemize}
-  \divider
+
   \cvevent{The Simple Derivatives Game}{\cvreference{\faGithub}{https://github.com/honkita/The-Simple-Derivatives-Game}}{01 2022 -- 05 2022}{}
   \begin{itemize}
     \item{Developed a math game that teaches students in grades 11 and 12 the basics of derivatives in the form of a game.}
@@ -161,26 +159,9 @@
     \item{Incorporated procedural generation for interactive user gameplay to engage students, facilitating their easy acquisition of derivative knowledge.}
   \end{itemize}
 
-  \cvsection{Relevant Courses}
-
-  \cvevent{COMPSCI 4AL3 | Applications of Machine Learning}{A+}{09 2025 -- 12 2025}{McMaster University}
-  \begin{itemize}
-    \item{Implemented various machine learning algorithms such as decision trees, k-nearest neighbors, and neural networks using Python and R to analyze datasets and make predictions.}
-    \item{Explored advanced topics such as deep learning, reinforcement learning, and natural language processing through hands-on projects and assignments.}
-    \item {Utilized libraries such as PyTorch and Scikit-learn to build and train machine learning models for real-world applications.}
-  \end{itemize}
-  \divider
-  \cvevent{COMPSCI 4HC3 | Human Computer Interfaces}{A+}{09 2023 -- 12 2023}{McMaster University}
-  \begin{itemize}
-    \item{Designed a prototype for a McMaster online booking portal utilizing design principles, software development life cycles, and coding principles to obtain user satisfaction (waterfall vs. agile).}
-    \item{Used background in art to design the UI to match the user's expectations and allow for ease of use (colour theory, button mapping, etc.).}
-  \end{itemize}
-
-
-
   \cvsection{Coding Languages}
   \begin{sloppypar}
-    \cvtags{ARM, C, C\#, C++, CSS, Elm, Haskell, HTML, Java, JavaScript, Latex, Prolog, Python, R, SQL, TypeScript,Web Assembly}
+    \cvtags{ARM, C, C\#, C++, CSS, Elm, Haskell, HTML, Java, JavaScript, Latex, Prolog, Python, R, SQL, TypeScript, VBA, Web Assembly}
   \end{sloppypar}
 
   \cvsection{Frameworks, APIs, Build Automation Tools, and Libraries}
